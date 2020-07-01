@@ -9,4 +9,10 @@ public class main extends JavaPlugin {
     public void onEnable() {
         getLogger().info("プラグインを起動しました");
     }
+
+    @Override
+    public void onDisable() {
+        getLogger().info("プラグインを終了します");
+    }
+
 }
